@@ -12,3 +12,23 @@ body {
      text-transform: uppercase;
      letter-spacing: 15px;
 }
+
+.vine2 {
+  font-size: 100%;
+     background-color: #00A478;
+     text-align: center;
+     font-family: Times New Roman;
+     border: 10px solid #005E49;
+}
+
+.vine3 {
+  font-size: 150%;
+     text-align: center;
+     font-family: Arial;
+}
+
+.vine4 {
+  font-size: 150%;
+     text-align: center;
+     font-family: Times New Roman;
+}
