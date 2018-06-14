@@ -1,0 +1,14 @@
+
+body {
+  background: #84DEC4;
+}
+
+.vine {
+  font-size: 300%;
+     background-color: #00A478;
+     text-align: center;
+     font-family: Arial;
+     border: 10px solid #005E49;
+     text-transform: uppercase;
+     letter-spacing: 15px;
+}

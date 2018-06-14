@@ -1,1 +1,115 @@
-<h1> This is a view </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="css/preset/preset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Vine Matchmaker</title>
+   
+</head>
+
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+<div class="w3-bar w3-black">
+
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Home')">Home</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Memes')">Memes</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Mainstream')">Mainstream</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Happy')">Happy</button>
+  <button class="w3-bar-item w3-button"
+  
+  onclick="openCatagory('Laugh')">Laugh</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Veteran')">Veteran</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('Relatable')">Relatable</button>
+  <button class="w3-bar-item w3-button" onclick="openCatagory('PickMeUp')">PickMeUp</button>
+  
+</div>
+
+<div id="Home" class="w3-container w3-display-container catagory" style="display:none"> 
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Home</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Memes" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Memes</h2>
+  <a src="https://www.youtube.com/watch?v=Bm7Bz5tQ_GY&t=0s&list=LLw8qrL9MJt5WSclw99OcwsA&index=20"></a>
+</div>
+
+<div id="Mainstream" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Maistream</h2>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Happy" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Happy</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Laugh" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Laugh</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Veteran" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Veteran</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Relatable" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>Relatable</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="PickMeUp" class="w3-container w3-display-container catagory" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-large w3-display-topright">&times;</span>
+  <h2>PickMeUp</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCatagory(catagoryName) {
+    var i;
+    var x = document.getElementsByClassName("catagory");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(catagoryName).style.display = "block";  
+}
+</script>
+
+
+
+   <h1 class="vine">Vine is Dead</h1>
+    <h1 class="vine">but the Culture is Alive</h1>
+    <p class="vine2">
+        Launched January 24, 2013, Vine was a simple platform for capturing and sharing moments that grew into something much more. People experimented with their creativity in just 6 seconds with vine. Funny vines, creative vines, cute vines; it had it all. Stars became famous because of this platform for their quality content. People all over quotes famous vines and asked their friends ‘have you seen this vine?’ Vine developed an entire culture. And then came the end of an era. On January 17, 2017, Vine died. Instagram and Snapchat (already popular social medias) competed with their own video clips on their platforms. Vine struggled to keep the pace. Vine also struggled to maintain some of its executive positions, many moving on to other things. Vine also made significantly less profit than other platforms. It seemed Vine was nearing the end. Many stars had already made the transition to other platforms. Twitter considered either combining the app with itself (Which would ruin Vine’s individuality) or selling it (there were no buyers). With seemingly no other options that would benefit them, Twitter decided to pull the plug. Though Vine was dead, the vine-lovers kept the memory alive. ‘RIP Vine Compilations’ popped up all over YouTube. They documented everyone's’ favorite vines and gave the vine community a sense of nostalgia. Vine, you will be missed and may this website honor your life.
+</p>
+  <div>
+    <h3 class="vine3">What Vine compilation is for you?</h3>
+    <p class="vine3">Ever heard a person say “this vine is literally me”, then realize that you don’t know what vines describe you? No worries friends! Vine Matchmaker is here for you. This is your tool to find the perfect vine compilation for your ever-changing mood. Taking account of the freakin amazing vine viewer that you are, this website creates something like a match made in heaven… DISCLAIMER: this is not a dating website. Enjoy!</p>
+    <img src="https://www.what-dog.net/Images/faces2/scroll0015.jpg" width="500px" /> 
+</div>
+
+
+</body>
+</html>
